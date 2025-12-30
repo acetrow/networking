@@ -18,7 +18,7 @@ Developed as part of SCC.203 Computer Networks Coursework 1 covering network app
 - Handles ICMP error codes (Destination Host/Network Unreachable)
 - Custom checksum calculation for packet integrity verification
 
-### Task 1.2: Traceroute Client (Assessed - 50% of CW1)
+### Task 1.2: Traceroute Client
 - Traces the network path to a destination host using TTL manipulation
 - Supports both ICMP and UDP protocols (configurable via command line)
 - Performs three delay measurements per hop for accuracy
@@ -38,7 +38,7 @@ Developed as part of SCC.203 Computer Networks Coursework 1 covering network app
 - Supports concurrent client connections using Python threading
 - Complies with RFC 2616 HTTP/1.1 specification
 
-### Task 2.2: Web Proxy Server (Assessed - 50% of CW1)
+### Task 2.2: Web Proxy Server
 - Acts as intermediary between clients and web servers
 - Forwards HTTP requests from clients to destination servers
 - Returns server responses back to requesting clients
@@ -270,5 +270,6 @@ Web Proxy starting on port: 8000...
 ## License
 
 This project is released under the MIT License.
+
 
 Academic Integrity Notice: This coursework is submitted for SCC.203 Computer Networks at Lancaster University. Please respect academic integrity policies.
